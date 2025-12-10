@@ -14,7 +14,7 @@ public class Solution8Test {
                 {'0','0','1','0','0'},
                 {'0','0','0','1','1'}
         };
-        assertEquals(2, sol.numIslands(copyGrid(grid)));
+        assertEquals(3, sol.numIslands(copyGrid(grid)));
     }
 
     @Test
